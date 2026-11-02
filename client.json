@@ -1,9 +1,9 @@
 {
   "client_id": "https://catandcrowgames.github.io/rpmcp-oauth/client.json",
-  "client_name": "RPMCP sign-in test",
-  "redirect_uris": ["http://localhost:3811/callback"],
+  "client_name": "RPMCP",
+  "redirect_uris": ["http://localhost:3777/api/voice/callback"],
   "grant_types": ["authorization_code", "refresh_token"],
   "response_types": ["code"],
   "token_endpoint_auth_method": "none",
-  "scope": "text_to_speech speech_history_read"
+  "scope": "text_to_speech"
 }
